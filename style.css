@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    height: 500px;
+}
+
+.one {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.two {
+    color: #080808;
+
+}
+
+.three {
+    color: #181818;
+    background-color: #e5e7eb;
+
+}
+
+.four {
+    color: #f9faf8;
+    background-color: #ffffff;
+
+}
+
+.header, .hero, .register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin: 8px;
+}
+
+.text {
+    width: 375px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    background: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 0;
+}
+button.button {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 24px;
+}
+
+.register {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.racoon {
+    height: 50px;
+}
+
+.cards {
+    display: flex;
+}
+
+.hero-picture {
+    height: 250px;
+}
