@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 350px;
+    min-height: 400px;
 }
 
 .header, .hero, .register {
@@ -27,21 +27,9 @@ body {
     background-color: #1f2937;
 }
 
-.two {
-    color: #080808;
-
-}
-
-.three {
-    color: #181818;
-    background-color: #e5e7eb;
-
-}
-
-.four {
-    color: #f9faf8;
-    background-color: #ffffff;
-
+.header {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .awesome {
@@ -49,6 +37,12 @@ body {
     font-weight: bolder;
     color: #f9faf8;
     margin-bottom: 5px;
+}
+
+.hero-picture {
+    max-height: 230px;
+    width: 350px;
+    margin: 0;
 }
 
 .logo {
@@ -74,10 +68,6 @@ button {
     margin-top: 8px;
 }
 
-button.button {
-    border: 1px solid white;
-}
-
 ul {
     display: flex;
 }
@@ -93,6 +83,65 @@ li {
     margin-left: 24px;
 }
 
+.two {
+    color: #080808;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 170px;
+    /* border: 1px solid black; */
+}
+
+.racoon {
+    height: 100px;
+    background: #ffffff;
+    color: white;
+    padding: 26px 14px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937be;
+}
+
+.three {
+    color: #181818;
+    background-color: #e5e7eb;
+
+}
+
+.four {
+    color: #f9faf8;
+    background-color: #ffffff;
+    
+}
+
+button.button {
+    border: 1px solid white;
+}
+
+
+
 .register {
     background-color: #3882f6;
 }
@@ -106,21 +155,3 @@ li {
     color: #f9faf8;
 }
 
-.header {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.racoon {
-    height: 50px;
-}
-
-.cards {
-    display: flex;
-}
-
-.hero-picture {
-    max-height: 230px;
-    width: 350px;
-    margin: 0;
-}
